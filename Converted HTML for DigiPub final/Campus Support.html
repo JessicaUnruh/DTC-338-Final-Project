@@ -1,480 +1,14 @@
+<!DOCTYPE html>
+<html>
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+<head>
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>338 DigiPub Final - Campus Support\338 DigiPub Final - Campus Support</title>
 
-/* END RESET */
 
-
-
-/* ---------------------------------------------------------------------------------------
-BODY STYLES
- ----------------------------------------------------------------------------------------- */
-
-body {
-  margin: auto;
-  font-family: serif;
-  font-size: 20px;
-  padding-bottom: 10px;
-  padding: 0px;
-  margin-top:-25px;
-  line-height: 1.4;
-  letter-spacing: .015em;
-}
-
-body > *:first-child {
-  margin-top: 0 !important; }
-body > *:last-child {
-  margin-bottom: 0 !important; }
-
-
-
-/*HEADING styles*/
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px 0px 0px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  cursor: text;
-  border:  1px solid green;
-}
-
-h1 {
-  margin:auto;
-  margin-top: 1em;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-family: sans-serif;
-}
-
-h2 { 
-  font-family: sans-serif;
-  font-size: 1.5em;
-  margin-top: 5%;
-  }
-
-ul, ol {
-  border:  1px solid pink;
-}
-
-li {
-  border:  1px solid lightblue;
-}
-
-
-
-
-/*LINK styles*/
-
-a {
-  color: #58595b; }
-a.absent {
-  color: #58595b; }
-a.anchor {
-  display: block;
-  padding-left: 30px;
-  margin-left: -30px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0; }
-  
-
-/*Main Wrapper styles*/
-
-#wrapper { 
-	margin:auto;
-	padding:0%;
-  max-width: 1000px;
-  border:  1px solid blue;
-}
-
-#wrapper p {
-  padding:1% 4%;
-  line-height: 1.5;
-}
-
-
-
-
-
-
-/* ---------------------------------------------------------------------------------------
-SIDEBAR MENU STYLES
- ----------------------------------------------------------------------------------------- */
-
-
-/*.accordion {
-    background-color: #fff;
-    font-family: sans-serif;
-    cursor: pointer;
-    padding: 2%;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    font-size:1.1em;
-    line-height: 1.5em;
-}
-*/
-/*.panel {
-    padding: 0 18px;
-    display: none;
-    overflow: scroll;
-    list-style:none;
-    font-size: 1em;
-  }*/
-
-
-
-header {
-  position: relative;
-	width: 40%;
-	left: 0px;
-	top:0px; 
-  background: transparent;
-  border:  1px solid yellow;
-}
-
-#mainSidenav h1 {
-     font-size: 1.7em;
-     margin-left: 5%;
-     line-height: 1.2;
-     letter-spacing: .1em;
-     text-align: left;
-     margin-bottom: 4%;
-     font-family: sans-serif;
-  }
-
-#mainSidenav.small{
-   font-size: .45em;
-   line-height: 1.25;
-   padding-top: 0;
-   padding-left: 0;
-   margin-left: 0;
-   margin-top: 5%;
-   letter-spacing: normal;
-   text-align: left;
-}
-
-.sidenav h1 { 
-   font-family:  sans-serif;
-  font-size: 1.7em;
-
-  text-align:left;
-  margin-top: 5%;
-  }
-
-.sidenav hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-}
-
-.small {
-  display:block;
-  color: #000;
-  font-size: .53em;
-  font-style: italic;
-  font-weight: normal;
-  margin: 5% 0;
-  font-family: sans-serif;
-   line-height: 1.25;
-   padding-top: 0;
-   padding-left: 0;
-   margin-top: 5%;
-   letter-spacing: normal;
-   text-align: left;
-  }
-
-.sidenav p {
-  font-size: .6em;
-  font-family: serif;
-  text-align: left;
-  margin-left: 0%;
-  width: 80%;
-}
-
-
-
-
-/* ---------------------------------------------------------------------------------------
-HAMBURGER MENU STYLES
- ----------------------------------------------------------------------------------------- */
-  #burger {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 99%;
-    border: 0px solid red;
-    text-align: left;
-    z-index: 20;
-    display: block;
-    text-shadow: 1px 1px 1px #999;
-    background-color:transparent;
-    /*background-image: url("img/stripes1.png");*/
-    padding-bottom: 1%;
-    padding-left: 1%;
-  }
-  
-  .sidenav {
-    height: 90%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    overflow-y: auto;
-    transition: 0.5s;
-    padding: 1% 0% 10% 1%;
-    border: 1px solid red;
-    background-color: #FFF;
-}
-
-nav {
-    padding-top: 8%;
-    padding-bottom: 10%;
-    padding-left: 4%;
-}
-
-.sidenav .panel a {
-    padding: 2% 3%;
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
-}
-
-.toc-item {
-  padding-left: 0%;
-}
-
-.panel a {
-    font-size: .7em;
-    font-family: serif
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0%;
-    right: 3%;
-    font-size: 1.5em;
-    z-index: 5;
-    text-decoration: none;
-}
-
-#close-btn {
-  display: none;
-}
-
-
-a:hover {
-  color: #d1d3d4;
-  text-decoration: underline;
-  border: none;
-}
-
-
-
-
-/*IMAGE styles*/
-
-img {
-display: block;
-/*margin: 0% auto;*/
-width: 100%; 
-/*max-width: 800px;*/
-}
-
-img.smaller {
-width: 90%; 
-max-width: 400px;
-margin: 0% auto;
-}
-
-img.medium {
-width: 90%; 
-max-width: 600px;
-margin: 0% auto;
-}
-
-img.much-smaller {
-width: 90%; 
-max-width: 275px;
-margin: 0% auto;
-}
-
-.logos {
-  width: 100%;
-  margin-left: -15px;
-}
-
-.logos2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1%;
-  width:90%;
-  margin: 0 auto;
-}
-
-.logos img {
-  width: 100%;
-}
-
-
-figure {
-  height: auto;
-  width: auto;
-  padding: 0;
-  text-align: center;
-  margin: 0%;
-  margin-bottom: 5%;
-}
-
-
-figcaption  {
-    font-style: italic;
-    font-size: .8em;
-    text-align: center;
-    width: auto;
-    margin: auto;
-    padding: 1%;
-}
-
-
-
-/*blockquote styles*/
-
-blockquote {
-  border-left: 4px solid #ddd;
-  padding: 0 5%;
-  margin-left: 6%;
-  margin-right: 4%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 1.2em;
-  line-height: 1.5;
-  color: #777777;
-  font-weight: lighter;
-  font-style: italic;
-}
-
-
-
-
-
-/*
------------------------------------------------------------------
-
-MEDIA QUERIES
-
-_________________________________________________________________
-
-*/
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 10%;}
-  .sidenav a {font-size: 1.1em;}
-}
-
-@media screen and (max-width: 750px) {
-  .sidenav { width: 0%;}
- 
-  h1{
-    padding-top: 1em;
-  }
-
-  h3{
-    margin-top: 100px;
-  }
-}
-
-@media screen and (min-width: 751px) {
-   
-
-  #main{
-    margin-top: 0em;
-  }
-
-  .sidenav {
-    height: 85%;
-    font-family: sans-serif;
-  }
-
-  #burger {
-    display: none;
-  }
-
-  #wrapper {
-  margin: 0 5% 0 5% 0;
-  padding:0%;
-  }
-
-
-
-}
-
-
-
-@media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-	pre {
-		word-wrap: break-word;
-	}
-}
-
-
-/* IMPORTED FROM MACDOWN
-   COMMENTED OUT BUT FEEL FREE TO USE FOR STYLES
-
+<style type="text/css">
 body {
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
@@ -790,4 +324,108 @@ kbd {
     padding: 2cm; 
   }
 }
-*/
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0">Campus Support</h2>
+
+<p>Learning new skills and programs as a DTC student is vital to one’s success, and the department and university provide many resources to assist with this. From workshops to getting one on one help, there are many options.</p>
+
+<p>If you are having technical issues, <a href="https://www.vancouver.wsu.edu/information-technology/tech-support-services">Tech Support Services </a>is an important resource to know about. This service is led by Patti Paris and assists students, faculty, and staff resolve technical issues both on campus and at home. The HelpDesk is located in the Classroom Building Room 214 on campus, on Zoom, by phone at 360-546-9770, or by email at <a href="mailto:van.evita@wsu.edu">van.evita@wsu.edu</a> from 8am-5pm Monday through Friday. Tech Support Services maintains many of the computer labs on campus and provide individual, small group, and online technology training for students, faculty, and staff. There is also a <a href="https://www.vancouver.wsu.edu/information-technology/new-student-tech-guide">new student tech guide</a> with information on how to get a loaner laptop, network IDs, printing, student accounts, and more!</p>
+
+<h3 id="toc_1">Best people to contact for help include:</h3>
+
+<h4 id="toc_2">Dene Grigar</h4>
+
+<p>Director and Professor. Multimedia (VMMC) Room 28. <a href="mailto:dgrigar@wsu.edu">dgrigar@wsu.edu</a> </p>
+
+<h4 id="toc_3">Ted Fordyce</h4>
+
+<p>Academic Advisor. Science (VSCI) Room 130. <a href="mailto:tfordyce@wsu.edu">tfordyce@wsu.edu</a> </p>
+
+<h4 id="toc_4">Will Luers</h4>
+
+<p>Associate Professor. Multimedia (VMMC) Room 30. <a href="mailto:wluers@wsu.edu">wluers@wsu.edu</a> </p>
+
+<h4 id="toc_5">Greg Philbrook</h4>
+
+<p>CMDC Technician. Multimedia (VMMC) Room 115A. <a href="mailto:greg.philbrook@wsu.edu">greg.philbrook@wsu.edu</a> </p>
+
+<h4 id="toc_6">Patti Paris</h4>
+
+<p>Operations and Support Services Manager. Classroom (VCLS) Room 214. <a href="mailto:patti.paris@wsu.edu">patti.paris@wsu.edu</a> </p>
+
+<h4 id="toc_7">Michael Stamper</h4>
+
+<p>Chief Information Officer. Classroom (VCLS) Room 219A. <a href="mailto:michael.d.stamper@wsu.edu">michael.d.stamper@wsu.edu</a> </p>
+
+<h3 id="toc_8">Computer labs:</h3>
+
+<h4 id="toc_9">Multimedia (VMMC) room 101</h4>
+
+<p>7 a.m. – 9 p.m. Monday – Friday, closed Saturday and Sunday</p>
+
+<h4 id="toc_10">The Library-General Library area (does not have specialized software)</h4>
+
+<p>7:30 a.m. - 8 p.m. Monday - Thursday, 7:30 a.m. - 5 p.m. Friday, Saturday closed, 1-7 p.m Sunday</p>
+
+<p>For any questions contact <a href="mailto:van.library@wsu.edu">van.library@wsu.edu</a> or call 360-546-9680. The library offers laptops for rent, assistance with project research and holds community events. </p>
+
+<h3 id="toc_11">Library staff:</h3>
+
+<h4 id="toc_12">Karen Diller</h4>
+
+<p>Library Director <a href="mailto:diller@wsu.edu">diller@wsu.edu</a></p>
+
+<h4 id="toc_13">Kerry Hodge</h4>
+
+<p>Tech Services Supervisor <a href="mailto:hodge@wsu.edu">hodge@wsu.edu</a> </p>
+
+<h4 id="toc_14">Carol Fisher</h4>
+
+<p>Collections and Tech Services <a href="mailto:carol.fisher1@wsu.edu">carol.fisher1@wsu.edu</a> </p>
+
+<h3 id="toc_15">Workshops</h3>
+
+<p>Throughout the semester, the department holds many workshops to help students interested in learning new programs or enhancing their skills. Some of the workshops that were held in Fall 2022 include:</p>
+
+<h4 id="toc_16">Adobe XD for Prototyping</h4>
+
+<p>link to recording: <a href="https://wsu.zoom.us/rec/play/YNHpVtNDfWogqHSHUQXllM3pL50nOF2yxxHMDqN_jebvcQNmgtbVbUjVZO-XlOsxx-oaPhYqOfiZI9Pd.1WLxHZxro60yjtPA?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">https://wsu.zoom.us/rec/play/YNHpVtNDfWogqHSHUQXllM3pL50nOF2yxxHMDqN_jebvcQNmgtbVbUjVZO-XlOsxx-oaPhYqOfiZI9Pd.1WLxHZxro60yjtPA?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806</a> </p>
+
+<h4 id="toc_17">Color Theory</h4>
+
+<p>link to recording: <a href="https://wsu.zoom.us/rec/play/1FrRthTN--G42-F3YhrpS9-9TtyEvtnoqUpcjk1A9C_t8CY6pRR617S-hozV4loj4RsMPMMNUiUoBM27.VeWuJ6tPIq2Komae?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">https://wsu.zoom.us/rec/play/1FrRthTN--G42-F3YhrpS9-9TtyEvtnoqUpcjk1A9C_t8CY6pRR617S-hozV4loj4RsMPMMNUiUoBM27.VeWuJ6tPIq2Komae?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806</a> </p>
+
+<h4 id="toc_18">Github Tips for Teamwork</h4>
+
+<p>link to recording: <a href="https://wsu.zoom.us/rec/play/EZa1uA_iyd2T0uvb2XTsNTzPBQpxsZFDWzy2dJRNynOSlfU7EvP8nwXCcoDl-6ogNFTwl4nbFpqerEmf.8DbedMDiA_v1wRMW?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">https://wsu.zoom.us/rec/play/EZa1uA_iyd2T0uvb2XTsNTzPBQpxsZFDWzy2dJRNynOSlfU7EvP8nwXCcoDl-6ogNFTwl4nbFpqerEmf.8DbedMDiA_v1wRMW?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806</a> </p>
+
+<h4 id="toc_19">Using Substance Painter for 3D Models</h4>
+
+<p>link to recording: <a href="https://wsu.zoom.us/rec/play/L5JaporT1_jSQ5kQYNYzO6sWDG6GLzQhzNCJXvNLE0Egn1hRbSo-7bI0i2i9zR4UTGbwAz2AQmqVcY5h.bb6mBWRTu82MMigs?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">https://wsu.zoom.us/rec/play/L5JaporT1_jSQ5kQYNYzO6sWDG6GLzQhzNCJXvNLE0Egn1hRbSo-7bI0i2i9zR4UTGbwAz2AQmqVcY5h.bb6mBWRTu82MMigs?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806</a> </p>
+
+<h4 id="toc_20">Twine for Storytelling</h4>
+
+<h4 id="toc_21">Clean Code, Clean Projects</h4>
+
+<h4 id="toc_22">Usability for Accessibility/Accessible Websites With Semantic Mark Up Language</h4>
+
+<h4 id="toc_23">Oculus Quest for Interactive Experiences: A Hands-On Experience for Conceptualizing VR Stories</h4>
+
+<h4 id="toc_24">Collaborating with Figma</h4>
+
+<p>These workshops were mostly held on Zoom with a few having the opportunity of being in person. The recordings for the Zoom sessions are still available for students who were not able to make it at the time. </p>
+
+<p>The CMDC program holds many tech workshops, but these types of workshops are held on campus by other departments and organizations as well. In Fall 2022, OSI held a Canva workshop. This workshop taught students how to use Canva to create successful flyers and posts. This includes visual hierarchy, layout, fonts, color choice, and many more valuable skills. </p>
+
+
+
+
+</body>
+
+</html>
