@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>DTC Handbook - Credits</title>
+<title>DTC Handbook - Campus Support</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,6 +31,10 @@
 <!-- css styles -->
 <link type="text/css" rel="stylesheet" href="styles.css">
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i%7CIBM+Plex+Sans+Condensed:400,400i%7CIBM+Plex+Sans:100,100i,400,400i,700,700i%7CIBM+Plex+Serif:400,400i&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -49,18 +53,15 @@
   <div id="mainSidenav" class="sidenav">
       <a href="javascript:void(0)" id="close-btn" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <h1>The DTC Handbook</span><span class="small">subtitle</span></h1>
+      <h1 id="title3">The DTC Handbook</span><span class="small">Your Guide to The Program</span></h1>
       <hr>
 
   <nav>   
     <div id="menu">
-      <button class="accordion" onclick="window.location.href='index.html';">Introduction</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
+      <button class="accordion" id="intr" onclick="window.location.href='index.html';">Introduction</button>
 
-      <button class="accordion" onclick="window.location.href='program-info.html';">Program Information</button>
+
+      <button class="accordion" id="prog" onclick="window.location.href='program-info.html';">Program Information</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="program-info.html#toc_1"><li>Tools</li></a>
@@ -70,14 +71,10 @@
       </div>
 
 
-      <button class="accordion" onclick="window.location.href='faculty.html';">Faculty</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
+      <button class="accordion" id="facu" onclick="window.location.href='faculty.html';">Faculty & Staff</button>
       
 
-      <button class="accordion" onclick="window.location.href='superpowers.html';">Superpowers</button>
+      <button class="accordion" id="supe" onclick="window.location.href='superpowers.html';">Superpowers</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="superpowers.html#toc_0"><li>Web Development</li></a>
@@ -92,7 +89,7 @@
         </ul>
       </div>
 
-      <button class="accordion" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
+      <button class="accordion" id="seni" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="senior-seminar.html#toc_0"><li>Structure</li></a>
@@ -103,25 +100,19 @@
         </ul>
       </div>
       
-      <button class="accordion" onclick="window.location.href='campus-support.html';">Campus and Support</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
+      <button class="accordion" id="camp" onclick="window.location.href='campus-support.html';">Campus & Support</button>
 
 
-      <button class="accordion" onclick="window.location.href='credits.html';">Credits</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
+
+      <button class="accordion" id="cred" onclick="window.location.href='credits.html';">Credits</button>
+
       
       
        <hr>
 
-      <p>Paragraph description....</p>
+      <p>This publication was created in the fall of 2022 by the students of DTC 338 - Digital Publishing.</p>
       <div class="logos">
-         <img src="" alt="publisher logo">
+         <img id="img27" src="" alt="publisher logo">
        </div>
 
       
@@ -137,15 +128,15 @@
 
     <div id="main">
     
-    <div>
-      <h1>
-        Credits
+    <div id="introBG">
+      <h1 id="title2">
+      <span>Created by Students for Students</span>
       </h1> 
     </div>
 
     <div id="wrapper">
 
-      <h2 id="toc_0">Credits</h2>
+      <h2 id="toc_0" class="credits">Credits</h2>
 
       <h3 id="toc_1">Copywriting</h3>
 

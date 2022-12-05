@@ -1,3 +1,9 @@
+/* 
+IMPORTED FONTS
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Habibi');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -29,9 +35,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
+
 body {
   line-height: 1;
 }
+
+
 blockquote, q {
   quotes: none;
 }
@@ -55,9 +65,10 @@ BODY STYLES
 
 body {
   margin: auto;
-  font-family: serif;
+  font-family: 'IBM Plex Serif', serif;
   font-size: 20px;
   padding-bottom: 10px;
+  background-color: #f1f2f2;
   padding: 0px;
   margin-top:-25px;
   line-height: 1.4;
@@ -79,29 +90,134 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   cursor: text;
-  border:  1px solid green;
+}
+
+#introBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#981e32;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
+}
+
+#creBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#d9edd9;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
+}
+
+#facBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#526dad;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
+}
+
+#progBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#5e21b5;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
+}
+
+#senBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#f6bf5a;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
+}
+
+#supBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#289968;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
+}
+
+#camBG {
+  padding: 5% 5% 5% 5%;
+  background-color:#ff6866;  
+  background-size: 90%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  max-width: 887px;
+  margin: 0 auto;
 }
 
 h1 {
   margin:auto;
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
-  font-family: sans-serif;
+  padding-top: 1em;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 h2 { 
-  font-family: sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 1.5em;
-  margin-top: 5%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   }
 
+
+.super{
+  color: #155237;
+}
+
+.program-info{
+color: #3f1678;
+}
+
+.campus-support{
+color: #d45755;
+}
+
+.faculty{
+color: #3d5282;
+}
+
+.senior-seminar{
+color: #c99d4b;
+}
+
+.ind{
+  color: #981e32;
+}
+
+h3{
+padding-left: 1em;
+}
+
+h4{
+padding-left: 1em;
+}
+
 ul, ol {
-  border:  1px solid pink;
+
 }
 
 li {
-  border:  1px solid lightblue;
+
 }
 
 
@@ -130,7 +246,7 @@ a.anchor {
 	margin:auto;
 	padding:0%;
   max-width: 1000px;
-  border:  1px solid blue;
+  background: #ffffff;
 }
 
 #wrapper p {
@@ -148,11 +264,12 @@ SIDEBAR MENU STYLES
  ----------------------------------------------------------------------------------------- */
 
 
-/*.accordion {
+.accordion {
     background-color: #fff;
-    font-family: sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    color: #444;
     cursor: pointer;
-    padding: 2%;
+    /*padding: 2%;*/
     width: 100%;
     text-align: left;
     border: none;
@@ -161,7 +278,35 @@ SIDEBAR MENU STYLES
     font-size:1.1em;
     line-height: 1.5em;
 }
-*/
+
+#camp{
+color: #d45755;
+}
+
+#cred{
+color: #981e32;
+}
+
+#facu{
+color: #526dad;
+}
+
+#intr{
+color: #981e32;
+}
+
+#prog{
+color: #5e21b5;
+}
+
+#seni{
+color: #c99d4b;
+}
+
+#supe{
+color: #289968;
+}
+
 /*.panel {
     padding: 0 18px;
     display: none;
@@ -178,7 +323,7 @@ header {
 	left: 0px;
 	top:0px; 
   background: transparent;
-  border:  1px solid yellow;
+
 }
 
 #mainSidenav h1 {
@@ -188,7 +333,7 @@ header {
      letter-spacing: .1em;
      text-align: left;
      margin-bottom: 4%;
-     font-family: sans-serif;
+     font-family: 'Fjalla One', sans-serif;
   }
 
 #mainSidenav.small{
@@ -218,12 +363,12 @@ header {
 
 .small {
   display:block;
-  color: #000;
+  color: #444;
   font-size: .53em;
   font-style: italic;
   font-weight: normal;
   margin: 5% 0;
-  font-family: sans-serif;
+  font-family: 'Fjalla One', sans-serif;
    line-height: 1.25;
    padding-top: 0;
    padding-left: 0;
@@ -251,7 +396,7 @@ HAMBURGER MENU STYLES
     top: 0%;
     left: 0%;
     width: 99%;
-    border: 0px solid red;
+   
     text-align: left;
     z-index: 20;
     display: block;
@@ -274,7 +419,7 @@ HAMBURGER MENU STYLES
     overflow-y: auto;
     transition: 0.5s;
     padding: 1% 0% 10% 1%;
-    border: 1px solid red;
+
     background-color: #FFF;
 }
 
@@ -285,10 +430,14 @@ nav {
 }
 
 .sidenav .panel a {
-    padding: 2% 3%;
+    /*padding: 2% 3%;*/
     text-decoration: none;
     display: block;
     transition: 0.3s;
+}
+
+div#panel2 ul{
+  margin: 0%;
 }
 
 .toc-item {
@@ -297,7 +446,7 @@ nav {
 
 .panel a {
     font-size: .7em;
-    font-family: serif
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .sidenav .closebtn {
@@ -327,10 +476,28 @@ a:hover {
 
 img {
 display: block;
-/*margin: 0% auto;*/
-width: 100%; 
-/*max-width: 800px;*/
+margin: 0% auto;
+width: auto; 
+max-width: 700px;
+max-height: 300px;
 }
+
+#img4, #img5, #img6, #img7, #img8, #img9, #img10, #img11, #img13{
+  margin: 0%;
+  padding-left: 1em;
+
+} 
+
+
+#img15 {
+width: 300px; 
+}
+
+#img20 {
+height: 500px;
+width: auto; 
+}
+
 
 img.smaller {
 width: 90%; 
@@ -387,7 +554,41 @@ figcaption  {
     padding: 1%;
 }
 
+#title1 {
+  padding-top:40px;
+  text-align: center;
+}
 
+#title1 span {
+  display: block;
+  font-size: 2em;
+  color: white;
+}
+
+#title2 {
+  padding-top:40px;
+}
+
+#title2 span {
+  display: block;
+  font-size: 1em;
+  color: white;
+}
+
+#title3 {
+  color: #981e32;
+}
+
+#title4{
+  padding-top:40px;
+  text-align: center;
+}
+
+#title4 span {
+  display: block;
+  font-size: 2em;
+  color: white;
+}
 
 /*blockquote styles*/
 

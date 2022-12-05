@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>DTC Handbook - Program Info</title>
+<title>DTC Handbook - Campus Support</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,6 +31,10 @@
 <!-- css styles -->
 <link type="text/css" rel="stylesheet" href="styles.css">
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i%7CIBM+Plex+Sans+Condensed:400,400i%7CIBM+Plex+Sans:100,100i,400,400i,700,700i%7CIBM+Plex+Serif:400,400i&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -43,41 +47,30 @@
   <div id="burger"> 
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   </div>
-
-
     
   <div id="mainSidenav" class="sidenav">
       <a href="javascript:void(0)" id="close-btn" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <h1>The DTC Handbook</span><span class="small">subtitle</span></h1>
+      <h1 id="title3">The DTC Handbook</span><span class="small">Your Guide to The Program</span></h1>
       <hr>
 
   <nav>   
     <div id="menu">
-      <button class="accordion" onclick="window.location.href='index.html';">Introduction</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
+      <button class="accordion" id="intr" onclick="window.location.href='index.html';">Introduction</button>
 
-      <button class="accordion" onclick="window.location.href='program-info.html';">Program Information</button>
+
+      <button class="accordion" id="prog" onclick="window.location.href='program-info.html';">Program Information</button>
       <div class="panel" id="panel2">
         <ul>
-          <a href="#toc_1"><li>Tools</li></a>
-          <a href="#toc_9"><li>DTC Speciality Road Maps</li></a>
-          <a href="#toc_17"><li>Student Experiences</li></a>
+          <a href="program-info.html#toc_1"><li>Tools</li></a>
+          <a href="program-info.html#toc_9"><li>DTC Speciality Road Maps</li></a>
+          <a href="program-info.html#toc_17"><li>Student Experiences</li></a>
         </ul>
       </div>
 
+      <button class="accordion" id="facu" onclick="window.location.href='faculty.html';">Faculty & Staff</button>    
 
-      <button class="accordion" onclick="window.location.href='faculty.html';">Faculty</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
-      
-
-      <button class="accordion" onclick="window.location.href='superpowers.html';">Superpowers</button>
+      <button class="accordion" id="supe" onclick="window.location.href='superpowers.html';">Superpowers</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="superpowers.html#toc_0"><li>Web Development</li></a>
@@ -92,7 +85,7 @@
         </ul>
       </div>
 
-      <button class="accordion" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
+      <button class="accordion" id="seni" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="senior-seminar.html#toc_0"><li>Structure</li></a>
@@ -103,25 +96,17 @@
         </ul>
       </div>
       
-      <button class="accordion" onclick="window.location.href='campus-support.html';">Campus and Support</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
+      <button class="accordion" id="camp" onclick="window.location.href='campus-support.html';">Campus & Support</button>
 
+      <button class="accordion" id="cred" onclick="window.location.href='credits.html';">Credits</button>
 
-      <button class="accordion" onclick="window.location.href='credits.html';">Credits</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
       
       
        <hr>
 
-      <p>Paragraph description....</p>
+      <p>This publication was created in the fall of 2022 by the students of DTC 338 - Digital Publishing.</p>
       <div class="logos">
-         <img src="" alt="publisher logo">
+         <img id="img27" src="" alt="publisher logo">
        </div>
 
       
@@ -137,17 +122,19 @@
 
     <div id="main">
     
-    <div>
-      <h1>
-        Program Information
+    <div id="progBG">
+      <h1 id="title1">
+        <span>Program Information</span>
       </h1> 
     </div>
 
     <div id="wrapper">
 
-      <h2 id="toc_0">Program Information</h2>
+      <h2 id="toc_0" class="program-info">Here's What You Need to Know</h2>
 
-      <p>The Digital Technology and Culture program was started at WSU Vancouver. The program is one of five Signature programs on the Vancouver campus. It integrates research and teaching in an intellectually-diverse, technologically innovative experience, applying inter-and transdisciplinary approaches that foster civic engagement from local-to-global contexts in the areas of Digital Humanities, media art, media communication, media studies, information systems.</p>
+      <img id="img1" src="img/students-in-lab.jpg" alt="Students working together in computer lab">
+
+      <p>The Digital Technology and Culture program was started at WSU Vancouver. The program is one of five signature programs on the Vancouver campus. It integrates research and teaching in an intellectually-diverse, technologically innovative experience, applying inter-and transdisciplinary approaches that foster civic engagement from local-to-global contexts in the areas of Digital Humanities, media art, media communication, media studies, information systems.</p>
 
       <p>The program offers six specialties that include Game Studies &amp; Design; Web &amp; Mobile Design &amp; Development; 2 &amp; 3D Animation for Simulation &amp; Visualization; Digital Publishing; Physical Computing; &amp; Social Media / SEO.</p>
 
@@ -157,7 +144,9 @@
 
       <p>The broad-based, interdisciplinary DTC degree prepares you for a culturally diverse, technologically complex 21st century.</p>
 
-      <h2 id="toc_1">Tools</h2>
+      <h2 id="toc_1" class="program-info">Tools</h2>
+
+       <!--<img id="img2" src="img/tools.jpg" alt="Graphic of tools">-->
 
       <p>Modern digital professionals use a variety of tools to accomplish their work and are constantly learning new ones! Here are a few of the most prominent that you will use in the program, but this is by no means an exhaustive list. </p>
 
@@ -169,7 +158,7 @@
 
       <p>As design is a large part of the major, the Adobe Creative Cloud is a place where you’ll spend a lot of your time. Programs such as Photoshop, Illustrator, Premiere, After Effects, and XD will be used in various classes and projects along your journey. </p>
 
-      <h3 id="toc_4">Unreal Engine/Twine - https://www.unrealengine.com/en-US , <a href="https://twinery.org/">https://twinery.org/</a></h3>
+      <h3 id="toc_4">Unreal Engine/Twine - <a href="https://www.unrealengine.com/en-US"> https://www.unrealengine.com </a> , <a href="https://twinery.org/">https://twinery.org/</a></h3>
 
       <p>In certain game development classes you will be exposed to certain engines in order to create and modify games. As a game designer and developer, these engines will provide the basis of your knowledge in the gaming industry. </p>
 
@@ -185,13 +174,13 @@
 
       <p>Blender is a free and open-source 3D computer graphics software tool set used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly, video games.</p>
 
-      <h3 id="toc_8">Maya - https://www.autodesk.com/products/maya/overview</h3>
+      <h3 id="toc_8">Maya - <a href="https://www.autodesk.com/products/maya/overview"> https://www.autodesk.com</a> </h3>
 
       <p>Maya is also used for 3D animation. It is used to create assets for interactive 3D applications, animated films, TV series, and visual effects. You would use this program if you’re interested in animation. </p>
 
       <p>VMMC 111 has computers equipped with the Adobe Creative Suite, Maya, Unity, Unreal Engine, Blender, and other software. The classroom is an open lab for students to use outside of the class hours that are posted on the door outside.</p>
 
-      <h2 id="toc_9">DTC Specialty Road Maps</h2>
+      <h2 id="toc_9" class="program-info">DTC Specialty Road Maps</h2>
 
       <p>The DTC degree can be tailored to many specialties, here a few paths through the program that have been customized for specific interests and skills.</p>
 
@@ -330,7 +319,9 @@
       <p>+ DTC 478 Usability &amp; Interface Design</p>
 
 
-      <h2 id="toc_17">Student Experiences in DTC</h2>
+      <h2 id="toc_17" class="program-info">Student Experiences in DTC</h2>
+
+      <img id="img3" src="img/students-in-quad.jpg" alt="Students walking in the WSUV quad">
 
       <h3 id="toc_18">While in the CMDC program what is a DTC course that you have taken that you have enjoyed?</h3>
 

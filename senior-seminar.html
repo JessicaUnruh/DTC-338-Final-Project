@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>DTC Handbook - Senior Seminar</title>
+<title>DTC Handbook - Campus Support</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,6 +31,10 @@
 <!-- css styles -->
 <link type="text/css" rel="stylesheet" href="styles.css">
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i%7CIBM+Plex+Sans+Condensed:400,400i%7CIBM+Plex+Sans:100,100i,400,400i,700,700i%7CIBM+Plex+Serif:400,400i&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -43,24 +47,19 @@
   <div id="burger"> 
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   </div>
-
-
     
   <div id="mainSidenav" class="sidenav">
       <a href="javascript:void(0)" id="close-btn" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <h1>The DTC Handbook</span><span class="small">subtitle</span></h1>
+      <h1 id="title3">The DTC Handbook</span><span class="small">Your Guide to The Program</span></h1>
       <hr>
 
   <nav>   
     <div id="menu">
-      <button class="accordion" onclick="window.location.href='index.html';">Introduction</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
+      <button class="accordion" id="intr" onclick="window.location.href='index.html';">Introduction</button>
 
-      <button class="accordion" onclick="window.location.href='program-info.html';">Program Information</button>
+
+      <button class="accordion" id="prog" onclick="window.location.href='program-info.html';">Program Information</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="program-info.html#toc_1"><li>Tools</li></a>
@@ -69,15 +68,9 @@
         </ul>
       </div>
 
+      <button class="accordion" id="facu" onclick="window.location.href='faculty.html';">Faculty & Staff</button>    
 
-      <button class="accordion" onclick="window.location.href='faculty.html';">Faculty</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
-      
-
-      <button class="accordion" onclick="window.location.href='superpowers.html';">Superpowers</button>
+      <button class="accordion" id="supe" onclick="window.location.href='superpowers.html';">Superpowers</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="superpowers.html#toc_0"><li>Web Development</li></a>
@@ -92,36 +85,28 @@
         </ul>
       </div>
 
-      <button class="accordion" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
+      <button class="accordion" id="seni" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
       <div class="panel" id="panel2">
         <ul>
-          <a href="#toc_0"><li>Structure</li></a>
-          <a href="#toc_8"><li>Teams</li></a>
-          <a href="#toc_13"><li>What team will you be on?</li></a>
-          <a href="#toc_14"><li>Past Projects</li></a>
-          <a href="#toc_15"><li>Resume and Portfolio</li></a>
+          <a href="senior-seminar.html#toc_0"><li>Structure</li></a>
+          <a href="senior-seminar.html#toc_8"><li>Teams</li></a>
+          <a href="senior-seminar.html#toc_13"><li>What team will you be on?</li></a>
+          <a href="senior-seminar.html#toc_14"><li>Past Projects</li></a>
+          <a href="senior-seminar.html#toc_15"><li>Resume and Portfolio</li></a>
         </ul>
       </div>
       
-      <button class="accordion" onclick="window.location.href='campus-support.html';">Campus and Support</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
+      <button class="accordion" id="camp" onclick="window.location.href='campus-support.html';">Campus & Support</button>
 
+      <button class="accordion" id="cred" onclick="window.location.href='credits.html';">Credits</button>
 
-      <button class="accordion" onclick="window.location.href='credits.html';">Credits</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
       
       
        <hr>
 
-      <p>Paragraph description....</p>
+      <p>This publication was created in the fall of 2022 by the students of DTC 338 - Digital Publishing.</p>
       <div class="logos">
-         <img src="" alt="publisher logo">
+         <img id="img27" src="" alt="publisher logo">
        </div>
 
       
@@ -137,15 +122,17 @@
 
     <div id="main">
     
-    <div>
-      <h1>
-        Senior Seminar
+    <div id="senBG">
+      <h1 id="title1"h1>
+        <span>Senior Seminar</span>
       </h1> 
     </div>
 
     <div id="wrapper">
 
-      <h2 id="toc_0">Structure:</h2>
+      <h2 id="toc_0" class="senior-seminar">Structure</h2>
+
+      <img id="img23" src="img/senior-seminar.jpg" alt="Students working in computer lab">
 
       <p>The Senior Seminar isn’t like other classes you’ve taken in the program up to this point. The Seminar is intended to give you experience working in teams on a single large project over the semester. Based on your Superpower and interests you will be on a team with others focusing on a specific area of the project. </p>
 
@@ -169,23 +156,23 @@
 
       <p>In the finals weeks of the semester, you will work on putting the finishing touches on your project and assembling your final presentation to your client. This final presentation will cover what you set out to accomplish and create and what you accomplished. Sometimes it happens that a seminar doesn’t finish their project in the semester, and that’s okay! The class is about learning and gaining experience. In the real world, projects can change focus based on time constraints and deadlines and that can happen in the seminar too.</p>
 
-      <h2 id="toc_4">What Do You Do, Make, &amp; Learn?</h2>
+      <h2 id="toc_4" class="senior-seminar">What Do You Do, Make, &amp; Learn?</h2>
 
-      <p>Here are some examples from the Fall 2022 Senior Seminar:</p>
+      <p>Here are some examples from the Fall 2022 Senior Seminar</p>
 
-      <h3 id="toc_5">Do:</h3>
+      <h3 id="toc_5">Do</h3>
 
       <p>The Fall 2022 Seminar worked on restoring and preserving a seminal piece of electronic literature, <em>Uncle Buddy’s Phantom Funhouse</em> by John McDaid. <em>Funhouse</em> was a pioneering work at the time including an early example of something like Google Earth, way before Google was even founded. (Aside: Electronic literature is a genre of media that is most associated with the late 1980s to early 1990s creative works that used digital technology to push the boundaries of literature.)</p>
 
-      <h3 id="toc_6">Make:</h3>
+      <h3 id="toc_6">Make</h3>
 
       <p>In the Fall 2022 Seminar the students presented their proposal to John in person, giving an overview of the design elements such as color palette, typography, mood, website and game wireframes, trailer and video assets to be produced, and a social media promotion strategy. These are all elements that a professional design firm would include in a proposal to a client. </p>
 
-      <h3 id="toc_7">Learn:</h3>
+      <h3 id="toc_7">Learn</h3>
 
       <p>Working and communicating in teams is an essential aspect of the modern digital workplace and the seminar will provide many opportunities to build those skills including participating in weekly planning meetings, and collaborating with members of other teams, all while building the skills in your superpower.</p>
 
-      <h2 id="toc_8">Teams</h2>
+      <h2 id="toc_8" class="senior-seminar">Teams</h2>
 
       <p>There were four teams for the project: </p>
 
@@ -216,7 +203,7 @@
 
       <p>These different specialty areas worked in their teams to develop a production plan to produce the content for their section promptly. Because each Seminar’s project is different there are a lot of decisions to be made and creative problem-solving that won’t be covered in the syllabus. The intent of the Seminar is to build teamwork and collaboration skills that </p>
 
-      <h2 id="toc_13">What Team Will You Be On?</h2>
+      <h2 id="toc_13" class="senior-seminar">What Team Will You Be On?</h2>
 
       <p>Your superpower reflects on what team you’re on. You will be a part of one of the four teams based on what you believe your work is best in. Each person is stronger at doing certain things so even on your team you will be doing something different than anyone else. The program focuses on six areas of study: </p>
 
@@ -240,7 +227,7 @@
 
       <p>In order to end up in one of these teams, you’ll take the Superpower quiz/survey (<a href="https://dtc-wsuv.org/supersurvey/">https://dtc-wsuv.org/supersurvey/</a>) for the program head, Dene, to see what group is best for you and who your mentor should be for the seminar. </p>
 
-      <h2 id="toc_14">Past Projects</h2>
+      <h2 id="toc_14" class="senior-seminar">Past Projects</h2>
 
       <p>(<a href="https://dtc-wsuv.org/projects/">https://dtc-wsuv.org/projects/</a>)</p>
 
@@ -256,7 +243,7 @@
       <li>Unfolding Gig Site (AR building game, based on historic Vancouver, WA)</li>
       </ul>
 
-      <h2 id="toc_15">Resume and Portfolio</h2>
+      <h2 id="toc_15" class="senior-seminar">Resume and Portfolio</h2>
 
       <p>In the senior seminar along with working on a team project, you will be asked to create a resume and portfolio. First comes the resume and then the portfolio. Even though you might already have a resume and portfolio you will be asked to create a new one. </p>
 

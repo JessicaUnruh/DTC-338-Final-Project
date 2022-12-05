@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>DTC Handbook - Superpowers</title>
+<title>DTC Handbook - Campus Support</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,6 +31,10 @@
 <!-- css styles -->
 <link type="text/css" rel="stylesheet" href="styles.css">
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i%7CIBM+Plex+Sans+Condensed:400,400i%7CIBM+Plex+Sans:100,100i,400,400i,700,700i%7CIBM+Plex+Serif:400,400i&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -43,24 +47,19 @@
   <div id="burger"> 
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   </div>
-
-
     
   <div id="mainSidenav" class="sidenav">
       <a href="javascript:void(0)" id="close-btn" class="closebtn" onclick="closeNav()">&times;</a>
 
-      <h1>The DTC Handbook</span><span class="small">subtitle</span></h1>
+      <h1 id="title3">The DTC Handbook</span><span class="small">Your Guide to The Program</span></h1>
       <hr>
 
   <nav>   
     <div id="menu">
-      <button class="accordion" onclick="window.location.href='index.html';">Introduction</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
+      <button class="accordion" id="intr" onclick="window.location.href='index.html';">Introduction</button>
 
-      <button class="accordion" onclick="window.location.href='program-info.html';">Program Information</button>
+
+      <button class="accordion" id="prog" onclick="window.location.href='program-info.html';">Program Information</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="program-info.html#toc_1"><li>Tools</li></a>
@@ -69,30 +68,24 @@
         </ul>
       </div>
 
+      <button class="accordion" id="facu" onclick="window.location.href='faculty.html';">Faculty & Staff</button>    
 
-      <button class="accordion" onclick="window.location.href='faculty.html';">Faculty</button>
-      <div class="panel" id="panel1">
-         <ul>
-         </ul>
-      </div>
-      
-
-      <button class="accordion" onclick="window.location.href='superpowers.html';">Superpowers</button>
+      <button class="accordion" id="supe" onclick="window.location.href='superpowers.html';">Superpowers</button>
       <div class="panel" id="panel2">
         <ul>
-          <a href="#toc_0"><li>Web Development</li></a>
-          <a href="#toc_5"><li>Audio/Video</li></a>
-          <a href="#toc_8"><li>Multimedia Design</li></a>
-          <a href="#toc_11"><li>Social Media</li></a>
-          <a href="#toc_14"><li>Animation</li></a>
-          <a href="#toc_17"><li>Digital Publishing</li></a>
-          <a href="#toc_20"><li>UX/UI</li></a>
-          <a href="#toc_23"><li>Game Studies</li></a>
-          <a href="#toc_26"><li>Project Management</li></a>
+          <a href="superpowers.html#toc_0"><li>Web Development</li></a>
+          <a href="superpowers.html#toc_5"><li>Audio/Video</li></a>
+          <a href="superpowers.html#toc_8"><li>Multimedia Design</li></a>
+          <a href="superpowers.html#toc_11"><li>Social Media</li></a>
+          <a href="superpowers.html#toc_14"><li>Animation</li></a>
+          <a href="superpowers.html#toc_17"><li>Digital Publishing</li></a>
+          <a href="superpowers.html#toc_20"><li>UX/UI</li></a>
+          <a href="superpowers.html#toc_23"><li>Game Studies</li></a>
+          <a href="superpowers.html#toc_26"><li>Project Management</li></a>
         </ul>
       </div>
 
-      <button class="accordion" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
+      <button class="accordion" id="seni" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
       <div class="panel" id="panel2">
         <ul>
           <a href="senior-seminar.html#toc_0"><li>Structure</li></a>
@@ -103,23 +96,15 @@
         </ul>
       </div>
       
-      <button class="accordion" onclick="window.location.href='campus-support.html';">Campus and Support</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
+      <button class="accordion" id="camp" onclick="window.location.href='campus-support.html';">Campus & Support</button>
 
+      <button class="accordion" id="cred" onclick="window.location.href='credits.html';">Credits</button>
 
-      <button class="accordion" onclick="window.location.href='credits.html';">Credits</button>
-      <div class="panel" id="panel2">
-        <ul>
-        </ul>
-      </div>
       
       
        <hr>
 
-      <p>Paragraph description....</p>
+      <p>This publication was created in the fall of 2022 by the students of DTC 338 - Digital Publishing.</p>
       <div class="logos">
          <img src="" alt="publisher logo">
        </div>
@@ -137,15 +122,17 @@
 
     <div id="main">
     
-    <div>
-      <h1>
-        Superpowers
+    <div id="supBG">
+      <h1 id="title1"h1>
+        <span>Superpowers</span>
       </h1> 
     </div>
 
     <div id="wrapper">
 
-      <h2 id="toc_0">Web Development</h2>
+      <h2 class="super" id="toc_0">Web Development</h2>
+
+      <img id="img14" src="img/web-dev.jpg" alt="Code on a computer">
 
       <h3 id="toc_1">Mentor</h3>
 
@@ -189,7 +176,9 @@
 
       <p>Alumni: Jacob Eddings, Cullen Thomas, Betsy Hanrahan, Jessica Grubbs, Jessica Unruh, Sorya Baxter, Roxana Moreno-Flores </p>
 
-      <h2 id="toc_5">Audio/Video</h2>
+      <h2 class="super" id="toc_5">Audio/Video</h2>
+
+      <img id="img15" src="img/audio-video.jpg" alt="Audio/video program on a computer">
 
       <h3 id="toc_6">Mentor</h3>
 
@@ -213,7 +202,9 @@
 
       <p>Alumni: Joel Clapp, Ransom Reed</p>
 
-      <h2 id="toc_8">Multimedia Design</h2>
+      <h2 class="super" id="toc_8">Multimedia Design</h2>
+
+      <img id="img16" src="img/multi-design.jpg" alt="Tablet with design software icons on it">
 
       <h3 id="toc_9">Mentor</h3>
 
@@ -239,7 +230,9 @@
 
       <p>Alumni: Miranda Embrey, Megan Tuthill,  Katya Farinsky</p>
 
-      <h2 id="toc_11">Social Media</h2>
+      <h2 class="super" id="toc_11">Social Media</h2>
+
+      <img id="img17" src="img/social-media.jpg" alt="Phone with social media apps on it">
 
       <h3 id="toc_12">Mentor</h3>
 
@@ -266,7 +259,9 @@
 
       <p>Alumni: Tanner Schneider, Becca Roy, Kara Klaus</p>
 
-      <h2 id="toc_14">Animation</h2>
+      <h2 class="super" id="toc_14">Animation</h2>
+
+      <img id="img18" src="img/after-effects-logo.png" alt="After Effects Logo">
 
       <h3 id="toc_15">Mentor</h3>
 
@@ -298,7 +293,9 @@
 
       <p>Alumni: Jaden Denfeld, Lily Tan, Nix Pendergast, Flynn Gonzalez, Rachel Kramer</p>
 
-      <h2 id="toc_17">Digital Publishing</h2>
+      <h2 class="super" id="toc_17">Digital Publishing</h2>
+
+      <img id="img19" src="img/digital-pub.jpg" alt="Someone typing on a computer">
 
       <h3 id="toc_18">Mentor</h3>
 
@@ -319,7 +316,9 @@
 
       <p>Alumni: Stratton Slater</p>
 
-      <h2 id="toc_20">UX/UI Design</h2>
+      <h2 class="super" id="toc_20">UX/UI Design</h2>
+
+      <img id="img20" src="img/ux-ui.jpg" alt="Someone holding a phone in front of a computer">
 
       <h3 id="toc_21">Mentor</h3>
 
@@ -347,7 +346,9 @@
 
       <p>Alumni: Michael Carson, Tair Tedorov, Lauren Varney</p>
 
-      <h2 id="toc_23">Game Studies</h2>
+      <h2 class="super" id="toc_23">Game Studies</h2>
+
+      <img id="img21" src="img/game-studies.jpg" alt="Two people holding video game controllers">
 
       <h3 id="toc_24">Mentor</h3>
 
@@ -375,6 +376,8 @@
       </ul>
 
       <h2 id="toc_26">Project Management</h2>
+
+      <img id="img22" src="img/proj-manage.jpg" alt="Someone creating a schedule">
 
       <h3 id="toc_27">Mentor</h3>
 
