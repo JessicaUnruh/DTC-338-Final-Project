@@ -242,14 +242,14 @@ a.anchor {
 
 /*Main Wrapper styles*/
 
-#wrapper { 
+.wrapper { 
 	margin:auto;
 	padding:0%;
-  max-width: 1000px;
+  max-width: 83%;
   background: #ffffff;
 }
 
-#wrapper p {
+.wrapper p {
   padding:1% 4%;
   line-height: 1.5;
 }
