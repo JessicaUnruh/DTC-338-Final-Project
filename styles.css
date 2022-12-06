@@ -224,7 +224,8 @@ li {
 
 /* content styles */
 .content {
-  width: 100%
+  width: 100%;
+  background: #fff;
 }
 
 
@@ -250,8 +251,8 @@ a.anchor {
 .wrapper { 
 	margin:auto;
 	padding:0%;
-  max-width: 1000px;
-  background: #ffffff;
+  max-width: 1009px;
+  /* background: #ffffff; */
 }
 
 .wrapper p {

@@ -62,7 +62,7 @@
 
 
       <button class="accordion" id="prog" onclick="window.location.href='program-info.html';">Program Information</button>
-      <div class="panel" id="panel2">
+      <div class="panel" id="panel2" style="display: none;">
         <ul>
           <a href="program-info.html#toc_1"><li>Tools</li></a>
           <a href="program-info.html#toc_9"><li>DTC Speciality Road Maps</li></a>
@@ -75,7 +75,7 @@
       
 
       <button class="accordion" id="supe" onclick="window.location.href='superpowers.html';">Superpowers</button>
-      <div class="panel" id="panel2">
+      <div class="panel" id="panel2" style="display: none;">
         <ul>
           <a href="superpowers.html#toc_0"><li>Web Development</li></a>
           <a href="superpowers.html#toc_5"><li>Audio/Video</li></a>
@@ -90,7 +90,7 @@
       </div>
 
       <button class="accordion" id="seni" onclick="window.location.href='senior-seminar.html';">Senior Seminar</button>
-      <div class="panel" id="panel2">
+      <div class="panel" id="panel2" style="display: none;">
         <ul>
           <a href="senior-seminar.html#toc_0"><li>Structure</li></a>
           <a href="senior-seminar.html#toc_8"><li>Teams</li></a>
@@ -136,106 +136,68 @@
 
     <div class="wrapper">
 
-      <h2 id="toc_0" class="campus-support">Need Assistance?</h2>
-      <img id="cogs" src="img/Cogs_cropped.png">
-
-      <p>Learning new skills and programs as a DTC student is vital to one’s success, and the department and university provide many resources to assist with this. From workshops to getting one on one help, there are many options.</p>
-
-      <p>If you are having technical issues, <a href="https://www.vancouver.wsu.edu/information-technology/tech-support-services">Tech Support Services</a> is an important resource to know about. This service is led by Patti Paris and assists students, faculty, and staff resolve technical issues both on campus and at home. The HelpDesk is located in the Classroom Building Room 214 on campus, on Zoom, by phone at 360-546-9770, or by email at <a href="mailto:van.evita@wsu.edu">van.evita@wsu.edu</a> from 8am-5pm Monday through Friday. Tech Support Services maintains many of the computer labs on campus and provide individual, small group, and online technology training for students, faculty, and staff. There is also a <a href="https://www.vancouver.wsu.edu/information-technology/new-student-tech-guide">new student tech guide</a> with information on how to get a loaner laptop, network IDs, printing, student accounts, and more!</p>
-
-      <h3 id="toc_1">Best people to contact for help include:</h3>
-
-      <h4 id="toc_2">Dene Grigar</h4>
-
-      <p>Director and Professor. Multimedia (VMMC) Room 28. <a href="mailto:dgrigar@wsu.edu">dgrigar@wsu.edu</a> </p>
-
-      <h4 id="toc_3">Ted Fordyce</h4>
-
-      <p>Academic Advisor. Science (VSCI) Room 130. <a href="mailto:tfordyce@wsu.edu">tfordyce@wsu.edu</a> </p>
-
-      <h4 id="toc_4">Will Luers</h4>
-
-      <p>Associate Professor. Multimedia (VMMC) Room 30. <a href="mailto:wluers@wsu.edu">wluers@wsu.edu</a> </p>
-
-      <h4 id="toc_5">Greg Philbrook</h4>
-
-      <p>CMDC Technician. Multimedia (VMMC) Room 115A. <a href="mailto:greg.philbrook@wsu.edu">greg.philbrook@wsu.edu</a> </p>
-
-      <h4 id="toc_6">Patti Paris</h4>
-
-      <p>Operations and Support Services Manager. Classroom (VCLS) Room 214. <a href="mailto:patti.paris@wsu.edu">patti.paris@wsu.edu</a> </p>
-
-      <h4 id="toc_7">Michael Stamper</h4>
-
-      <p>Chief Information Officer. Classroom (VCLS) Room 219A. <a href="mailto:michael.d.stamper@wsu.edu">michael.d.stamper@wsu.edu</a> </p>
-      <h3 id="toc_8">Computer labs:</h3>
-
-      <h4 id="toc_9">Multimedia (VMMC) room 101</h4>
-      
-      <img id="img25" src="img/vmmc-101.jpg" alt="Computer lab room">
-
-      <p>7 a.m. – 9 p.m. Monday – Friday, closed Saturday and Sunday</p>
+      <div class="content">
+        <h2 id="toc_0" class="campus-support">Need Assistance?</h2>
+        <img id="cogs" src="img/Cogs_cropped.png">
+        <p>Learning new skills and programs as a DTC student is vital to one’s success, and the department and university provide many resources to assist with this. From workshops to getting one on one help, there are many options.</p>
+        <p>If you are having technical issues, <a href="https://www.vancouver.wsu.edu/information-technology/tech-support-services">Tech Support Services</a> is an important resource to know about. This service is led by Patti Paris and assists students, faculty, and staff resolve technical issues both on campus and at home. The HelpDesk is located in the Classroom Building Room 214 on campus, on Zoom, by phone at 360-546-9770, or by email at <a href="mailto:van.evita@wsu.edu">van.evita@wsu.edu</a> from 8am-5pm Monday through Friday. Tech Support Services maintains many of the computer labs on campus and provide individual, small group, and online technology training for students, faculty, and staff. There is also a <a href="https://www.vancouver.wsu.edu/information-technology/new-student-tech-guide">new student tech guide</a> with information on how to get a loaner laptop, network IDs, printing, student accounts, and more!</p>
+        <h3 id="toc_1">Best people to contact for help include:</h3>
+        <h4 id="toc_2">Dene Grigar</h4>
+        <p>Director and Professor. Multimedia (VMMC) Room 28. <a href="mailto:dgrigar@wsu.edu">dgrigar@wsu.edu</a> </p>
+        <h4 id="toc_3">Ted Fordyce</h4>
+        <p>Academic Advisor. Science (VSCI) Room 130. <a href="mailto:tfordyce@wsu.edu">tfordyce@wsu.edu</a> </p>
+        <h4 id="toc_4">Will Luers</h4>
+        <p>Associate Professor. Multimedia (VMMC) Room 30. <a href="mailto:wluers@wsu.edu">wluers@wsu.edu</a> </p>
+        <h4 id="toc_5">Greg Philbrook</h4>
+        <p>CMDC Technician. Multimedia (VMMC) Room 115A. <a href="mailto:greg.philbrook@wsu.edu">greg.philbrook@wsu.edu</a> </p>
+        <h4 id="toc_6">Patti Paris</h4>
+        <p>Operations and Support Services Manager. Classroom (VCLS) Room 214. <a href="mailto:patti.paris@wsu.edu">patti.paris@wsu.edu</a> </p>
+        <h4 id="toc_7">Michael Stamper</h4>
+        <p>Chief Information Officer. Classroom (VCLS) Room 219A. <a href="mailto:michael.d.stamper@wsu.edu">michael.d.stamper@wsu.edu</a> </p>
+        <h3 id="toc_8">Computer labs:</h3>
+        <h4 id="toc_9">Multimedia (VMMC) room 101</h4>
         
-      <h4 id="toc_10">The Library-General Library area (does not have specialized software)</h4>
+        <img id="img25" src="img/vmmc-101.jpg" alt="Computer lab room">
+        <p>7 a.m. – 9 p.m. Monday – Friday, closed Saturday and Sunday</p>
         
-      <img id="img26" src="img/library.jpg" alt="Library computer lab">
+        <h4 id="toc_10">The Library-General Library area (does not have specialized software)</h4>
         
-      <ul>
-        <li>Monday: Thursday: 7:30 a.m. - 8 p.m.</li>
-        <li>Friday: 7:30 a.m. - 5 p.m.</li>
-        <li>Saturday: closed</li>
-        <li>Sunday: 1-7 p.m
-      </ul>
-      
-      <p>For any questions contact <a href="mailto:van.library@wsu.edu">van.library@wsu.edu</a> or call 360-546-9680. The library offers laptops for rent, assistance with project research and holds community events. </p>
-      
-      <h3 id="toc_11">Library staff:</h3>
-
-      <h4 id="toc_12">Karen Diller</h4>
-
-      <p>Library Director <a href="mailto:diller@wsu.edu">diller@wsu.edu</a></p>
-
-      <h4 id="toc_13">Kerry Hodge</h4>
-
-      <p>Tech Services Supervisor <a href="mailto:hodge@wsu.edu">hodge@wsu.edu</a> </p>
-
-      <h4 id="toc_14">Carol Fisher</h4>
-
-      <p>Collections and Tech Services <a href="mailto:carol.fisher1@wsu.edu">carol.fisher1@wsu.edu</a> </p>
-
-      <h3 id="toc_15">Workshops</h3>
-
-      <p>Throughout the semester, the department holds many workshops to help students interested in learning new programs or enhancing their skills. Some of the workshops that were held in Fall 2022 include:</p>
-
-      <h4 id="toc_16">Adobe XD for Prototyping</h4>
-
-      <p>link to <a href="https://wsu.zoom.us/rec/play/YNHpVtNDfWogqHSHUQXllM3pL50nOF2yxxHMDqN_jebvcQNmgtbVbUjVZO-XlOsxx-oaPhYqOfiZI9Pd.1WLxHZxro60yjtPA?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
-
-      <h4 id="toc_17">Color Theory</h4>
-
-      <p>link to <a href="https://wsu.zoom.us/rec/play/1FrRthTN--G42-F3YhrpS9-9TtyEvtnoqUpcjk1A9C_t8CY6pRR617S-hozV4loj4RsMPMMNUiUoBM27.VeWuJ6tPIq2Komae?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
-
-      <h4 id="toc_18">Github Tips for Teamwork</h4>
-
-      <p>link to <a href="https://wsu.zoom.us/rec/play/EZa1uA_iyd2T0uvb2XTsNTzPBQpxsZFDWzy2dJRNynOSlfU7EvP8nwXCcoDl-6ogNFTwl4nbFpqerEmf.8DbedMDiA_v1wRMW?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
-
-      <h4 id="toc_19">Using Substance Painter for 3D Models</h4>
-
-      <p>link to <a href="https://wsu.zoom.us/rec/play/L5JaporT1_jSQ5kQYNYzO6sWDG6GLzQhzNCJXvNLE0Egn1hRbSo-7bI0i2i9zR4UTGbwAz2AQmqVcY5h.bb6mBWRTu82MMigs?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
-
-      <h4 id="toc_20">Twine for Storytelling</h4>
-
-      <h4 id="toc_21">Clean Code, Clean Projects</h4>
-
-      <h4 id="toc_22">Usability for Accessibility/Accessible Websites With Semantic Mark Up Language</h4>
-
-      <h4 id="toc_23">Oculus Quest for Interactive Experiences: A Hands-On Experience for Conceptualizing VR Stories</h4>
-
-      <h4 id="toc_24">Collaborating with Figma</h4>
-
-      <p>These workshops were mostly held on Zoom with a few having the opportunity of being in person. The recordings for the Zoom sessions are still available for students who were not able to make it at the time. </p>
-
-      <p>The CMDC program holds many tech workshops, but these types of workshops are held on campus by other departments and organizations as well. In Fall 2022, OSI held a Canva workshop. This workshop taught students how to use Canva to create successful flyers and posts. This includes visual hierarchy, layout, fonts, color choice, and many more valuable skills. </p>
+        <img id="img26" src="img/library.jpg" alt="Library computer lab">
+        
+        <ul>
+          <li>Monday: Thursday: 7:30 a.m. - 8 p.m.</li>
+          <li>Friday: 7:30 a.m. - 5 p.m.</li>
+          <li>Saturday: closed</li>
+          <li>Sunday: 1-7 p.m
+        </ul>
+        
+        <p>For any questions contact <a href="mailto:van.library@wsu.edu">van.library@wsu.edu</a> or call 360-546-9680. The library offers laptops for rent, assistance with project research and holds community events. </p>
+        
+        <h3 id="toc_11">Library staff:</h3>
+        <h4 id="toc_12">Karen Diller</h4>
+        <p>Library Director <a href="mailto:diller@wsu.edu">diller@wsu.edu</a></p>
+        <h4 id="toc_13">Kerry Hodge</h4>
+        <p>Tech Services Supervisor <a href="mailto:hodge@wsu.edu">hodge@wsu.edu</a> </p>
+        <h4 id="toc_14">Carol Fisher</h4>
+        <p>Collections and Tech Services <a href="mailto:carol.fisher1@wsu.edu">carol.fisher1@wsu.edu</a> </p>
+        <h3 id="toc_15">Workshops</h3>
+        <p>Throughout the semester, the department holds many workshops to help students interested in learning new programs or enhancing their skills. Some of the workshops that were held in Fall 2022 include:</p>
+        <h4 id="toc_16">Adobe XD for Prototyping</h4>
+        <p>link to <a href="https://wsu.zoom.us/rec/play/YNHpVtNDfWogqHSHUQXllM3pL50nOF2yxxHMDqN_jebvcQNmgtbVbUjVZO-XlOsxx-oaPhYqOfiZI9Pd.1WLxHZxro60yjtPA?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
+        <h4 id="toc_17">Color Theory</h4>
+        <p>link to <a href="https://wsu.zoom.us/rec/play/1FrRthTN--G42-F3YhrpS9-9TtyEvtnoqUpcjk1A9C_t8CY6pRR617S-hozV4loj4RsMPMMNUiUoBM27.VeWuJ6tPIq2Komae?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
+        <h4 id="toc_18">Github Tips for Teamwork</h4>
+        <p>link to <a href="https://wsu.zoom.us/rec/play/EZa1uA_iyd2T0uvb2XTsNTzPBQpxsZFDWzy2dJRNynOSlfU7EvP8nwXCcoDl-6ogNFTwl4nbFpqerEmf.8DbedMDiA_v1wRMW?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
+        <h4 id="toc_19">Using Substance Painter for 3D Models</h4>
+        <p>link to <a href="https://wsu.zoom.us/rec/play/L5JaporT1_jSQ5kQYNYzO6sWDG6GLzQhzNCJXvNLE0Egn1hRbSo-7bI0i2i9zR4UTGbwAz2AQmqVcY5h.bb6mBWRTu82MMigs?continueMode=true&amp;_x_zm_rtaid=_bSPNKPmSNm8e-eDhQNJuw.1669655792302.905b579305b9b997402f9ed6a2b77212&amp;_x_zm_rhtaid=806">zoom recording</a> </p>
+        <h4 id="toc_20">Twine for Storytelling</h4>
+        <h4 id="toc_21">Clean Code, Clean Projects</h4>
+        <h4 id="toc_22">Usability for Accessibility/Accessible Websites With Semantic Mark Up Language</h4>
+        <h4 id="toc_23">Oculus Quest for Interactive Experiences: A Hands-On Experience for Conceptualizing VR Stories</h4>
+        <h4 id="toc_24">Collaborating with Figma</h4>
+        <p>These workshops were mostly held on Zoom with a few having the opportunity of being in person. The recordings for the Zoom sessions are still available for students who were not able to make it at the time. </p>
+        <p>The CMDC program holds many tech workshops, but these types of workshops are held on campus by other departments and organizations as well. In Fall 2022, OSI held a Canva workshop. This workshop taught students how to use Canva to create successful flyers and posts. This includes visual hierarchy, layout, fonts, color choice, and many more valuable skills. </p>
+      </div>
 
 
     <script type="text/javascript" src="script.js"></script> 
