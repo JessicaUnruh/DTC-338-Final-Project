@@ -482,22 +482,49 @@ max-width: 700px;
 max-height: 300px;
 }
 
+#img1, #img14, #img15, #img16, #img19, #img21, #img22, #img23 {
+  width: 90%;
+  height: auto;
+  max-width: none;
+  padding-bottom: 0.5em;
+}
+
+#img17, #img20 {
+  width: 80%;
+  height: auto;
+  max-width: none;
+  padding-bottom: 0.5em;
+}
+
+#img3 {
+  width: 90%;
+  max-width: none;
+  padding-bottom: 1em;
+}
+
 #img4, #img5, #img6, #img7, #img8, #img9, #img10, #img11, #img13{
   margin: 0%;
-  padding-left: 1em;
+  padding-left: 2em;
 
 } 
 
+#img18 {
+  width: auto;
+  max-width: none;
+  padding-bottom: 1em;
+}
 
+/**
 #img15 {
 width: 300px; 
 }
+
 
 #img20 {
 height: 500px;
 width: auto; 
 }
-
+**/
 
 img.smaller {
 width: 90%; 
