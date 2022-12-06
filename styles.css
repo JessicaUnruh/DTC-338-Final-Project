@@ -173,9 +173,9 @@ h1 {
 
 h2 { 
   font-family: 'Fjalla One', sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: none;
   padding-left: 1em;
   }
 
@@ -206,10 +206,12 @@ color: #c99d4b;
 
 h3{
 padding-left: 1em;
+font-size: 1.3em;
 }
 
 h4{
 padding-left: 1em;
+
 }
 
 ul, ol {
@@ -220,6 +222,9 @@ li {
 
 }
 
+p {
+
+}
 
 
 
@@ -242,15 +247,16 @@ a.anchor {
 
 /*Main Wrapper styles*/
 
-.wrapper { 
+#wrapper { 
 	margin:auto;
 	padding:0%;
-  max-width: 83%;
+  max-width: 1000px;
   background: #ffffff;
 }
 
-.wrapper p {
+#wrapper p {
   padding:1% 4%;
+  margin-top: 0.25em;
   line-height: 1.5;
 }
 
@@ -482,14 +488,14 @@ max-width: 700px;
 max-height: 300px;
 }
 
-#img1, #img14, #img15, #img16, #img19, #img21, #img22, #img23 {
+#img1, #img14, #img15, #img16, #img19, #img21, #img22, #img23, #tools {
   width: 90%;
   height: auto;
   max-width: none;
   padding-bottom: 0.5em;
 }
 
-#img17, #img20 {
+#img17, #img20, #cogs {
   width: 80%;
   height: auto;
   max-width: none;
@@ -512,6 +518,9 @@ max-height: 300px;
   width: auto;
   max-width: none;
   padding-bottom: 1em;
+}
+
+#toc_1 {
 }
 
 /**
