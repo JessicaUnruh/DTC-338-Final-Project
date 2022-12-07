@@ -222,6 +222,10 @@ li {
 
 }
 
+.seminar_lists {
+  padding-left: 3.5em;
+}
+
 /* content styles */
 .content {
   width: 100%;
@@ -622,7 +626,12 @@ figcaption  {
 }
 
 #title3 {
+  display: none;
   color: #981e32;
+}
+
+.logo {
+  width: 100%;
 }
 
 #title4{
