@@ -73,6 +73,7 @@ body {
   margin-top:-25px;
   line-height: 1.4;
   letter-spacing: .015em;
+  scroll-behavior: smooth;
 }
 
 body > *:first-child {
