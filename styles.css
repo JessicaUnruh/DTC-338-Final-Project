@@ -613,7 +613,12 @@ figcaption  {
 }
 
 #title3 {
+  display: none;
   color: #981e32;
+}
+
+.logo {
+  width: 100%;
 }
 
 #title4{
