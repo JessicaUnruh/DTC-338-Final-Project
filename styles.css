@@ -226,6 +226,7 @@ li {
 .content {
   width: 100%;
   background: #fff;
+  /* height: 100%; */
 }
 
 
@@ -252,7 +253,12 @@ a.anchor {
 	margin:auto;
 	padding:0%;
   max-width: 90%;
-  /* background: #ffffff; */
+  height: 75vh;
+  background: #fff;
+}
+
+#intro-wrapper {
+  height: 68vh;
 }
 
 .wrapper p {
@@ -261,6 +267,9 @@ a.anchor {
   line-height: 1.5;
 }
 
+#main {
+  /* height: 100%; */
+}
 
 
 
