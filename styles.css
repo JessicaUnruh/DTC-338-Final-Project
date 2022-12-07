@@ -205,6 +205,7 @@ color: #c99d4b;
 }
 
 h3{
+padding-top: 1em;
 padding-left: 1em;
 font-size: 1.3em;
 }
@@ -223,13 +224,14 @@ li {
 }
 
 .seminar_lists {
-  padding-left: 3.5em;
+  padding-left: 4em;
 }
 
 /* content styles */
 .content {
   width: 100%;
   background: #fff;
+  /* height: 100%; */
 }
 
 
@@ -256,15 +258,24 @@ a.anchor {
 	margin:auto;
 	padding:0%;
   max-width: 90%;
-  /* background: #ffffff; */
+  height: 75vh;
+  background: #fff;
+}
+
+#intro-wrapper {
+  height: 68vh;
 }
 
 .wrapper p {
-  padding:1% 4%;
+  padding: 0.5% 4%;
+  margin: 1%;
   margin-top: 0.25em;
   line-height: 1.5;
 }
 
+#main {
+  height: 103vh;
+}
 
 
 
